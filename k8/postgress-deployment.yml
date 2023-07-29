@@ -33,4 +33,5 @@ spec:
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: PGPASSWORD
+                  name: pgpassword
+                  key: PGPASSWORD
